@@ -101,10 +101,9 @@ a {
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 60vh;
+    height: 600px;
     margin-bottom: 10px;
 }
-
 
 .grid {
     display: grid;
@@ -127,7 +126,6 @@ a {
     align-items: center;
     gap: 10px;
     transition: transform 0.2s ease, color 0.2s ease;
-
 }
 
 .btn-project:hover {
@@ -149,6 +147,11 @@ a {
 @media (max-width: 468px) {
     .img-squares, .logo {
         position: absolute;
+        width: 90px;
+    }
+
+    .content {
+        height: 80vh;
     }
 
     .left-menu {
