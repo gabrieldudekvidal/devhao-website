@@ -35,6 +35,10 @@ a {
     z-index: 1000;
 }
 
+.img-squares.small {
+    width: 60px;
+}
+
 .title {
     font-size: 5rem;
     margin: 0;
@@ -70,6 +74,10 @@ a {
     left: 30px;
     width: 100px;
     z-index: 1000;
+}
+
+.logo.small {
+    width: 60px;
 }
 
 .wrapper {
@@ -121,5 +129,11 @@ a {
 }
 
 @media (max-width: 468px) {
+    .img-squares, .logo {
+        position: absolute;
+    }
 
+    .left-menu {
+        display: none !important;
+    }
 }

@@ -106,3 +106,21 @@
         </main>
     </body>
 </html>
+
+<script>
+    const logo = document.querySelector(".logo");
+    const squares = document.querySelector(".img-squares");
+    const services = document.querySelector("#services");
+
+    window.addEventListener("scroll", () => {
+        const servicesTop = services.getBoundingClientRect().top;
+
+        if (servicesTop <= 100) {
+            logo.classList.add("small");
+            squares.classList.add("small")
+        } else {
+            logo.classList.remove("small");
+            squares.classList.remove("small")
+        }
+    });
+</script>
