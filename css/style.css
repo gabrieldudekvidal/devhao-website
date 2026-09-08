@@ -6,6 +6,11 @@ body {
     font-family: "Space Grotesk", sans-serif;
 }
 
+.img-dev-flow {
+   width: 800px;
+   padding-top: 50px;
+}
+
 a {
     text-decoration: none;
     color: #3B82F6;
@@ -156,5 +161,10 @@ a {
 
     .left-menu {
         display: none !important;
+    }
+
+    .img-dev-flow {
+       width: 500px;
+       padding-top: 50px;
     }
 }
